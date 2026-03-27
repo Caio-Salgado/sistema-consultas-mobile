@@ -185,13 +185,13 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: "#fff",
-    borderRadius: 16,
+    borderRadius: 20,
     padding: 20,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 8,
-    elevation: 5,
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 3,
     
   },
   statusBadge: {
@@ -204,6 +204,7 @@ const styles = StyleSheet.create({
   },
   statusConfirmada: {
     backgroundColor: "#4CAF50",
+    borderRadius: 10,
   },
   statusCancelada: {
     backgroundColor: "#F44336",
@@ -214,7 +215,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   secao: {
-    marginBottom: 20,
+    marginBottom: 30,
     paddingBottom: 20,
     borderBottomWidth: 1,
     borderBottomColor: "#e0e0e0",
@@ -250,16 +251,22 @@ const styles = StyleSheet.create({
   mensagem: {
     backgroundColor: "#E8F5E9",
     padding: 16,
-    borderRadius: 8,
+    borderRadius: 50,
     borderLeftWidth: 4,
     borderLeftColor: "#4CAF50",
+    display:'flex',
+    alignSelf: 'center',
+    maxWidth:700,
   },
   mensagemCancelada: {
     backgroundColor: "#FFEBEE",
     padding: 16,
-    borderRadius: 8,
+    borderRadius: 50,
     borderLeftWidth: 4,
     borderLeftColor: "#F44336",
+    display:'flex',
+    alignSelf: 'center',
+    maxWidth:700,
   },
   mensagemTexto: {
     fontSize: 16,
